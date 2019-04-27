@@ -1,0 +1,24 @@
+DEBUG = True
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': '',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '',
+    }
+}
+
+# Bot settings
+NUMBER_OF_USERS = 10
+MAX_POSTS_PER_USER = 3
+MAX_LIKES_PER_USER = 10
+TEST_DOMAIN = 'http://127.0.0.1:8000/'
+
+# Clearbit enrichment
+CLEARBIT_API_KEY = ''
+
+# Emailhunter.io
+EMAILHUNTER_API_KEY = ''
