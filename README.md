@@ -1,13 +1,13 @@
 # Starnavi Test project
 The project allows to signup users, create posts and set likes/unlikes. Some features:
   - bot-autofiller included
-  - schema of api is available at /schema/ url. For seeing all fields uncomment SessionAuthentication in settings.py
+  - schema of an api is available at /schema/ url. To see all the fields please uncomment SessionAuthentication in settings.py
   - Clearbit user enrichment implemented, but disabled because of restrictions
   - Email deliverability is checked by emailhunter.co
 
 ### Installation
 
-Project works fine with Python3.6.1 to run. Also, database should be Postgres, as JSONField is used.
+Project tested with Python3.6.1. Database should be Postgres, as JSONField is used.
 Clone repository, create virtualenv and install the project:
 
 ```sh
